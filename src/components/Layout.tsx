@@ -1,4 +1,5 @@
 import React, { Children, FC } from "react";
+import Header from "./header";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -6,9 +7,12 @@ interface LayoutProps {
 
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
-    <main className="flex justify-center items-center h-screen w-screen">
-      {children}
-    </main>
+    <>
+      <Header />
+      <main className="flex justify-center items-center h-screen w-screen">
+        {children}
+      </main>
+    </>
   );
 };
 
