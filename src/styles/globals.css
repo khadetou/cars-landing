@@ -5,9 +5,12 @@
 }
 
 html {
-  @apply text-[62.5%] overflow-hidden scroll-pt-28 scroll-smooth;
+  @apply text-[50%] overflow-hidden scroll-pt-28 scroll-smooth tablet:text-[62.5%];
 }
 
+.active {
+  @apply py-8 px-[9%] shadow-box-shadow-app;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
