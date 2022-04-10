@@ -5,7 +5,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="header text-[55%] flex items-center justify-between fixed top-0 left-0 right-0 py-12 px-[9%] z-[1000] bg-white laptop:text-inherit ">
+    <header className="header text-[55%] flex items-center justify-between fixed top-0 left-0 right-0 p-8 laptop:py-12 laptop:px-[9%] z-[1000] bg-white laptop:text-inherit ">
       <div
         id="menu-btn"
         className="block relative  text-[2.5rem] text-light-app tablet:hidden"
