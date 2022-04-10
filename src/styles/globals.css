@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Shizuru&display=swap");
+
+* {
+  @apply font-Poppins m-0 p-0 box-border outline-none border-none no-underline capitalize transition-all duration-[0.2s] ease-linear;
+}
+
+html {
+  @apply text-[62.5%] overflow-hidden scroll-pt-28 scroll-smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
