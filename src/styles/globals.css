@@ -11,6 +11,11 @@ html {
 .navbar {
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
+@media (min-width: 768px) {
+  .navbar {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
 .navbar.active {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }

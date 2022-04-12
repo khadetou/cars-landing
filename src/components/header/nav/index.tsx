@@ -12,7 +12,7 @@ const Nav: FC<NavProps> = ({ isOpen, setIsOpen }) => {
     <nav
       className={
         isOpen
-          ? " active navbar absolute top-[99%] left-0 right-0 bg-white border-t-border-width-app border-t-border-color-app tablet:border-none flex flex-col tablet:flex-row tablet:static"
+          ? "active navbar absolute top-[99%] left-0 right-0 bg-white border-t-border-width-app border-t-border-color-app tablet:border-none flex flex-col tablet:flex-row  tablet:static"
           : "navbar absolute top-[99%] left-0 right-0 bg-white border-t-border-width-app border-t-border-color-app tablet:border-none flex flex-col tablet:flex-row tablet:static"
       }
     >
